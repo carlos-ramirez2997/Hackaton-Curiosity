@@ -1,0 +1,96 @@
+
+html, body {
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.main-container {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+}
+
+.bottom-container {
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-top {
+    flex: 1;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.flex-bottom {
+    font-family: IBMPlexSans-Medium;
+    font-size: 14px;
+    color: #42535C;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: normal;
+    flex: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.text-div {
+    font-family: IBMPlexSans-Light;
+    font-size: 20px;
+    color: #152935;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    flex: 1;
+    margin-bottom: 59px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: #028484;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 158px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+.logo-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 41px;
+    margin-top: 81px;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    background-color: #072146;
+}
+
+.access {
+    margin-right: 5%;
+}
+
+.figure-img {
+    width: 100%;
+    height: 700px;
+}

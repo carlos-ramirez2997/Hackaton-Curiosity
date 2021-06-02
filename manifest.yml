@@ -1,0 +1,5 @@
+---
+applications:
+ - name: NinjaHackaton
+   random-route: true
+   memory: 256M
