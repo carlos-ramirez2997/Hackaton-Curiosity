@@ -4,6 +4,6 @@
   "profilesUrl": "https://us-south.appid.cloud.ibm.com",
   "secret": "NDEzNGM2ZTAtYTQ1NC00Y2Q0LWIwOTItYzFmNTBjZWVmMzlj",
   "tenantId": "17c50e56-5130-471b-aed8-7e6902b298a1",
-  "redirectUri": "http://localhost:3000/ibm/cloud/appid/callback"
+  "redirectUri": "https://devops-hackaton-curiosity-rested-springhare.mybluemix.net/ibm/cloud/appid/callback"
 
 }
