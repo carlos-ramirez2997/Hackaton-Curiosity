@@ -40,10 +40,7 @@ passport.deserializeUser((obj, cb) => cb(null, obj));
 // 1. the original URL of the request that triggered authentication, as persisted in HTTP session under WebAppStrategy.ORIGINAL_URL key.
 // 2. successRedirect as specified in passport.authenticate(name, {successRedirect: "...."}) invocation
 // 3. application root ("/")
-app.get(CALLBACK_URL, (req, res) => {
-	console.log(req);
-	passport.authenticate(WebAppStrategy.STRATEGY_NAME, { failureRedirect: '/error' })
-});
+app.get(CALLBACK_URL, passport.authenticate(WebAppStrategy.STRATEGY_NAME, { failureRedirect: '/error' }));
 
 // Protect everything under /protected
 app.use("/protected", passport.authenticate(WebAppStrategy.STRATEGY_NAME));
